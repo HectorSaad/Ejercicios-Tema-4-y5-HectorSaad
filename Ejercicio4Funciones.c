@@ -1,9 +1,5 @@
-//Ejercicio 4 Funciones Hecto Saad
+//Ejercicio 5 Funciones Hector Saad
 #include <stdio.h>
-char mayuscula(char caracter1){
- return caracter1-32;
-}
-
 int main(){
     char letra=0;
     printf("INTRODUZCA UNA LETRA DE LA 'A' A LA 'Z' MINUSUCULA:");
@@ -17,7 +13,9 @@ int main(){
         printf("\nLA LETRA MAYUSCULA DE LA LETRA MINUSCULA %c ES: %c",letra,conversion);
         printf("\nINTRODUCE OTRA LETRA (0 PARA SALIR): ");
         scanf(" %c", &letra);
-    }
 
 
-}
+
+
+
+
